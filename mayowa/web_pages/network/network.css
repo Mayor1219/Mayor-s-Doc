@@ -1,0 +1,177 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 10px;
+    align-items: center;
+    background-color: black;
+    color: goldenrod;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-ul,
+.li,
+a {
+    color: goldenrod;
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-ul {
+    display: flex;
+    gap: 10px;
+}
+
+.reg .log a {
+    background-color: goldenrod;
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+    color: black;
+}
+
+.reg .sign a {
+    background-color: goldenrod;
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+    color: black;
+}
+
+.main-section {
+    display: inline-flex;
+}
+
+.right-section img {
+    width: 30em;
+    margin-top: 2em;
+}
+
+section {
+    display: flex;
+}
+
+section img {
+    width: 10em;
+}
+
+.left-section {
+    margin: 12em 5em 8em;
+    padding: 1px;
+}
+
+.left-section h1 {
+    font-size: 4em;
+}
+
+button {
+    margin-top: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    background-color: black;
+    border: none;
+    padding: 4px;
+    color: goldenrod;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: white;
+    color: goldenrod;
+}
+
+.f-left,
+li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+footer {
+    background-color: black;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-ul .footer-lst a {
+    color: mediumorchid;
+}
+
+.right-footer-ul .footer-lst a {
+    color: mediumorchid;
+}
+
+.copy {
+    margin-top: 4em;
+}
+
+.right-footer-ul {
+    display: flex;
+    align-items: center;
+    /* top: 50px; */
+    gap: 20px;
+}
+
+
+/* register */
+
+.top-reg {
+    font-family: monospace;
+    background-color: goldenrod;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    max-width: 30%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    color: goldenrod;
+    box-shadow: 5px 5px 20px black;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid goldenrod;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: goldenrod;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: blue;
+    }
+    nav {
+        font-size: 0px
+    }
+    ;
+}

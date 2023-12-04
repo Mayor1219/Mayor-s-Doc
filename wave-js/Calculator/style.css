@@ -1,0 +1,62 @@
+.calculator {
+    border: 5px solid gray;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 1%;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px #b6a9b6, -5px -5px 10px #ffffff;
+}
+
+input[type="text"] {
+    width: 95%;
+    margin: 30px 0 20px 0;
+    height: 60px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-radius: 5px;
+    color: black;
+    font-size: 30px;
+    text-align: right;
+    margin-bottom: 10px;
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+#dcolor {
+    background-color: brown;
+}
+
+.button {
+    width: 70px;
+    height: 70px;
+    margin: 15px 0 0 15px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    color: gray;
+    background-color: black;
+    box-shadow: 5px 5px 10px #b6acac, -5px -5px 10px #faf4f4;
+    display: inline-block;
+}
+
+.button:active {
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+.Heading {
+    font-size: 50px;
+    padding: 20px;
+    color: gray;
+}

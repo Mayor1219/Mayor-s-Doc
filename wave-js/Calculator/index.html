@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/Calculator/style.css">
+</head>
+
+<body>
+    <div class="Heading">
+        <center><b><i>Calculator</i></b></center>
+    </div>
+    <div class="calculator">
+        <input type="text" id="input" readonly>
+        <div class="row">
+            <button class="button" id="dcolor" onclick="clearInput()">AC</button>
+            <button class="button" id="dcolor" onclick="Backspace()">&#8592;</button>
+            <button class="button" id="dcolor" onclick="appendInput('/')">&divide</button>
+            <button class="button" id="dcolor" onclick="appendInput('*')">*</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="appendInput('7')">7</button>
+            <button class="button" onclick="appendInput('8')">8</button>
+            <button class="button" onclick="appendInput('9')">9</button>
+            <button class="button" id="dcolor" onclick="appendInput('-')">-</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="appendInput('4')">4</button>
+            <button class="button" onclick="appendInput('5')">5</button>
+            <button class="button" onclick="appendInput('6')">6</button>
+            <button class="button" id="dcolor" onclick="appendInput('+')">+</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="appendInput('1')">1</button>
+            <button class="button" onclick="appendInput('2')">2</button>
+            <button class="button" onclick="appendInput('3')">3</button>
+            <button class="button" id="dcolor" onclick="calculate()">=</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="appendInput('0')">0</button>
+            <button class="button" onclick="appendInput('.')">.</button>
+            <button class="button" onclick="appendInput('00')">00</button>
+            <button class="button" id="dcolor" onclick="calculatePercentage()">%</button>
+        </div>
+    </div>
+
+
+    <script src="/Calculator/app.js"></script>
+</body>
+
+</html>

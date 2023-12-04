@@ -1,0 +1,53 @@
+body {
+    background-image: url(/Images/Amazon\ UK.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: royalblue;
+}
+
+p {
+    color: rgb(4, 102, 105);
+    text-align: center;
+    border: 5px solid rgba(0, 200, 255, 0.5);
+    cursor: pointer;
+}
+
+p {
+    line-height: 50px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 90%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    float: left;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext:first-child {
+    border: 5px dashed black;
+}
+
+.active {
+    color: darkolivegreen;
+}
+
+#div1 {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+#div2 {
+    background-color: rgba(0, 0, 255, 0.5);
+}
